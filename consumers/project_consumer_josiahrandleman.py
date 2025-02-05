@@ -24,7 +24,7 @@ from utils.utils_logger import logger
 
 PROJECT_ROOT = pathlib.Path(__file__).parent.parent
 DATA_FOLDER = PROJECT_ROOT.joinpath("data")
-DATA_FILE = DATA_FOLDER.joinpath("buzz_live.json")
+DATA_FILE = DATA_FOLDER.joinpath("project_live.json")
 
 logger.info(f"Project root: {PROJECT_ROOT}")
 logger.info(f"Data folder: {DATA_FOLDER}")
