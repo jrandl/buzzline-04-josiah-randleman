@@ -646,3 +646,17 @@
 2025-02-03 23:11:57.225 | WARNING  | __main__:main:169 - Producer interrupted by user.
 2025-02-03 23:11:57.226 | INFO     | __main__:main:174 - Kafka producer closed.
 2025-02-03 23:11:57.227 | INFO     | __main__:main:176 - END producer.
+2025-02-05 21:46:56.801 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-05 21:46:56.813 | INFO     | __main__:main:138 - START producer...
+2025-02-05 21:46:56.935 | INFO     | __main__:main:151 - Kafka producer connected to localhost:9092
+2025-02-05 21:46:56.936 | INFO     | __main__:main:158 - {'message': 'I just saw a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-02-05 21:46:56', 'category': 'humor', 'sentiment': 0.46, 'keyword_mentioned': 'meme', 'message_length': 33}
+2025-02-05 21:46:57.374 | INFO     | __main__:main:167 - Sent message to Kafka topic 'project_json': {'message': 'I just saw a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-02-05 21:46:56', 'category': 'humor', 'sentiment': 0.46, 'keyword_mentioned': 'meme', 'message_length': 33}
+2025-02-05 21:47:02.375 | INFO     | __main__:main:158 - {'message': 'I just loved a movie! It was amazing.', 'author': 'Alice', 'timestamp': '2025-02-05 21:47:02', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-02-05 21:47:02.378 | INFO     | __main__:main:167 - Sent message to Kafka topic 'project_json': {'message': 'I just loved a movie! It was amazing.', 'author': 'Alice', 'timestamp': '2025-02-05 21:47:02', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-02-05 21:47:07.381 | INFO     | __main__:main:158 - {'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-02-05 21:47:07', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-02-05 21:47:07.385 | INFO     | __main__:main:167 - Sent message to Kafka topic 'project_json': {'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-02-05 21:47:07', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-02-05 21:47:12.389 | INFO     | __main__:main:158 - {'message': 'I just tried a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-02-05 21:47:12', 'category': 'humor', 'sentiment': 0.92, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-02-05 21:47:12.391 | INFO     | __main__:main:167 - Sent message to Kafka topic 'project_json': {'message': 'I just tried a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-02-05 21:47:12', 'category': 'humor', 'sentiment': 0.92, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-02-05 21:47:16.131 | WARNING  | __main__:main:171 - Producer interrupted by user.
+2025-02-05 21:47:16.132 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-02-05 21:47:16.132 | INFO     | __main__:main:178 - Producer shutting down.

@@ -1,0 +1,4 @@
+{"message": "I just saw a meme! It was boring.", "author": "Charlie", "timestamp": "2025-02-05 21:46:56", "category": "humor", "sentiment": 0.46, "keyword_mentioned": "meme", "message_length": 33}
+{"message": "I just loved a movie! It was amazing.", "author": "Alice", "timestamp": "2025-02-05 21:47:02", "category": "entertainment", "sentiment": 0.31, "keyword_mentioned": "movie", "message_length": 37}
+{"message": "I just saw travel! It was weird.", "author": "Alice", "timestamp": "2025-02-05 21:47:07", "category": "travel", "sentiment": 0.55, "keyword_mentioned": "travel", "message_length": 32}
+{"message": "I just tried a meme! It was amazing.", "author": "Alice", "timestamp": "2025-02-05 21:47:12", "category": "humor", "sentiment": 0.92, "keyword_mentioned": "meme", "message_length": 36}
